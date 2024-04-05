@@ -1,0 +1,13 @@
+
+.h2-text{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.07rem;
+  }
+
+
+  .h2-span__text{
+    color: var(--brandClr);
+  }
+  

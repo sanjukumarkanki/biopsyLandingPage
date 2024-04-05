@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    user-select: none;
+}
+
+html{
+    font-size: 5.31vw ;
+
+    /* font-size:22px */
+}
+
+:root {
+    --brandClr: #802A8F;
+    --pinkClr: #f0d0dd;
+    --pinkClr2: #f0d0dc;
+    --blackColor : #000;
+    --whiteColor : #Fff;
+}
+
+.main-app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+@media screen and (min-width:768px){
+    html {
+        font-size: 2.76vw;
+        /* font-size:53px */
+    }
+
+    .main-app{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100% !important;
+    }
+}
