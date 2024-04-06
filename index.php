@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/costOfBiopsys.css">
     <link rel="stylesheet" href="styles/biopsyFaqs.css">
     <link rel="stylesheet" href="styles/modalBox.css">
-    <link rel="stylesheet" href="style/modalBox.css">
+    <link rel="stylesheet" href="styles/ourlocation.css">
     <script src="./javascript/index.js" defer></script>
 </head>
 
@@ -25,8 +25,8 @@
         <?php include "./components/new.php" ?>
         <?php include("components/typesOfBiospy.php"); ?>
         <?php include("components/costOFBiopsy.php") ?>
-        <?php include("components/biopsyFaqs.php") ?>
         <?php include("components/ourLocations.php") ?>
+        <?php include("components/biopsyFaqs.php") ?>
     </div>
 </body>
 
