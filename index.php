@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="styles/reusable.css">
     <link rel="stylesheet" href="styles/costOfBiopsys.css">
     <link rel="stylesheet" href="styles/biopsyFaqs.css">
-    <link rel="stylesheet" href="styles/ourlocations.css">
+    <link rel="stylesheet" href="styles/modalBox.css">
+    <link rel="stylesheet" href="style/modalBox.css">
     <script src="./javascript/index.js" defer></script>
 </head>
 
