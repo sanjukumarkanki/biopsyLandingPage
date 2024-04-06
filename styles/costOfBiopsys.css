@@ -1,0 +1,139 @@
+.costof-biopsy-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 1.13rem;
+    margin-top: 1.72rem;
+}
+
+
+
+.costof-biopsy__subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.56rem;
+}
+
+
+.costof-biopsy__subcontainer > div{
+    width: 14.7rem;
+    height: 8.62rem;
+    margin-left: 1.49rem;
+    order: 1;
+    display: none;
+}
+.costof-biopsy__subcontainer > div > img{
+    width: 14.7rem;
+    height: 8.62rem;
+}
+
+.costof-biopsy__subcontainer > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.1rem;
+    order: 2;
+}
+
+
+.costof-biopsy__subcontainer > ul > li{
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 0.77rem;
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 1.07rem;
+}
+
+
+
+
+.costof-biopsy__subcontainer > ul > li > p{
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 0.71rem;
+    width: 5.35rem;
+    color: var(--brandClr);
+    text-align: start;
+}
+
+.costof-biopsy__subcontainer__img1{
+    display: none;
+}
+
+
+.costof-biopsy__subcontainer__img{
+    width: 0.54rem;
+    height: 0.54rem;
+    margin-right: 0.4rem;
+}
+
+@media screen and (min-width : 768px) {
+    .costof-biopsy-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 3.03rem;
+    }
+    
+    .costof-biopsy__subcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 1.56rem;
+    }
+    
+    .costof-biopsy__subcontainer > div{
+        width: 14.7rem;
+        height: 8.62rem;
+        margin-left: 1.49rem;
+        order: 2;
+        display: flex;
+    }
+    .costof-biopsy__subcontainer > div > img{
+        width: 14.7rem;
+        height: 8.62rem;
+    }
+    
+    .costof-biopsy__subcontainer > ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2.1rem;
+        order: 1;
+    }
+    
+    
+    .costof-biopsy__subcontainer > ul > li{
+        font-size: 0.62rem;
+        font-weight: 600;
+        line-height: 0.77rem;
+        list-style-type: none;
+        display: flex;
+        margin-bottom: 1.07rem;
+    }
+    
+    
+    
+    .costof-biopsy__subcontainer > ul > li > p{
+        font-size: 0.62rem;
+        font-weight: 600;
+        line-height: 0.71rem;
+        width: 5.35rem;
+        text-align: start;
+        color: #000;
+    }
+
+    .costof-biopsy__subcontainer__img1{
+        width: 0.54rem;
+        height: 0.54rem;
+        margin-right: 0.4rem;
+        display: flex;
+    }
+    .costof-biopsy__subcontainer__img{
+        display: none;
+    }
+}

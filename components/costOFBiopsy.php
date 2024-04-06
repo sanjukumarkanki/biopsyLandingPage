@@ -4,7 +4,9 @@
         <ul>
             <?php foreach ($costOfBiopsyArray as $eachBiopsyCard) :  ?>
                 <li>
-                    <img src="assets\costOfBiopsy\PolygonPlayIcon.webp" alt="li polygon icon" />
+                    <img class="costof-biopsy__subcontainer__img1" src="assets\costOfBiopsy\PolygonPlayIcon.webp" alt="li polygon icon" />
+                    <img class="costof-biopsy__subcontainer__img" src="assets\costOfBiopsy\PolygonSmallPlay.png" alt="playIcon" />
+
                     <p><?php echo $eachBiopsyCard[0]; ?></p>
 
                 </li>

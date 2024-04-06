@@ -1,0 +1,115 @@
+.banner {
+  background: url("../assets/banner_image.png");
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 19.15rem;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner__top-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--pinkClr2);
+    width: 10.566rem;
+    top: 1.49rem;
+    left: 0.509rem;
+    line-height: 1.245rem;
+  }
+
+  .banner__span > span {
+    color: white;
+    font-size: 1.52rem;
+    line-height: 2rem;
+  }
+
+  .banner__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 11.301rem;
+    height: 12.98rem;
+    position: absolute;
+    left: 23.0188rem;
+    top: 4.018rem;
+    border-radius: .339rem;
+}
+
+  .banner__form > input {
+    width: 9.566rem;
+    height: 1.75rem;
+    border-radius: 0.1132rem;
+    border: 0;
+    background-color: white;
+    margin-top: 0.423rem;
+    padding-left: 0.583rem;
+  }
+
+  .banner__form > input:nth-child(4) {
+    height: 2.509rem;
+  }
+
+  .banner__form-heading {
+    font-size: 1rem;
+    margin-top: 1.283rem;
+    font-weight: 700;
+  }
+  .banner__first-input{
+    margin-top: .9056rem !important;
+  }
+
+  .banner__form > input::placeholder{
+    font-size: .622rem;
+  }
+
+  .banner__submit-btn{
+    width: 4.924rem;
+    height: 1.075rem;
+    border-radius: .1132rem;
+    border: 0;
+    background-color: var(--brandClr);
+    font-size: .622rem;
+    color: white;
+    margin-top: .509rem;
+    font-weight: 600;
+  }
+
+  .banner__additional-benifit-text{
+    position: absolute;
+    /* bottom: .547rem; */
+    color: white;
+    left: 1.245rem;
+    top: 14.509rem;
+    
+  }
+  .banner__additional-benifit-text h1 {
+    font-size: 1rem;
+    color: var(--pinkClr2);
+    font-weight: 600;
+  }
+  .banner__additional-benifit-text p {
+    font-size: .622rem;
+    line-height: .782rem;
+    font-weight: 600;
+  }
+  .banner__additional-benifit-text p span {
+    font-size: .622rem;
+    line-height: .782rem;
+    background-color: var(--brandClr);
+    border-radius: .1132rem;
+    font-weight: 700;
+  }
+
+}
+
+/* * {
+  border: 1px solid rgb(250, 12, 12);
+} */

@@ -1,0 +1,278 @@
+.our-locations {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-locations__header {
+  align-self: center;
+}
+
+.our-locations__inner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.3636rem;
+}
+
+.our-locations__text-section {
+  order: 2;
+  display: flex;
+  margin-top: 1.0909rem;
+  padding-left: .2727rem;
+  padding-right: .636363rem;
+}
+
+.our-location__cities {
+  width: 6.3636rem;
+  height: 17.1818rem;
+  background-color: var(--brandclr);
+  border-radius: 0.179rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: .2286rem;
+  overflow-y: auto;
+  display: none;
+}
+
+.our-locations__city-btn {
+  width: 100%;
+  height: 2.147rem !important;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  font-size: 0.58857rem;
+  text-align: left;
+  padding-left: 0.857rem;
+  font-weight: 700;
+}
+.our-locations__city-btn:hover {
+  background-color: var(--whycioncardbg);
+}
+
+.selected-city {
+  background-color: var(--whycioncardbg);
+}
+
+.our-location__cities-centers {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: center;
+  margin-left: 0.5909rem;
+  flex-grow: 1;
+  height: 17.1818rem;
+}
+.our-location__cities-centers::-webkit-scrollbar-button{
+  width: .195rem;
+}
+
+.our-location__center {
+  display: flex;
+  flex-direction: column;
+  width: 9.409rem;  
+  border-bottom: 1px solid #c8c8c8;
+  margin-bottom: 0.5625rem;
+  padding-bottom: 0.5625rem;
+  align-self: stretch;
+}
+
+.our-location__center-name {
+  font-size: 0.5454rem;
+  color: var(--brandclr);
+  margin-bottom: 0;
+}
+
+.our-location__center-address {
+  color: var(--ourServicesGrayClr);
+  align-self: stretch;
+  width: 7.63rem;
+  font-size: 0.5040rem;
+  margin-top: 0.1339rem;
+  margin-bottom: 0.1728rem;
+}
+
+.our-locations__map {
+  width: 100%;
+  height: 11.5454rem;
+  margin: auto;
+  border-radius: 0.2777rem;
+  order: 1;
+  overflow: hidden;
+  
+  background-color: rgb(197, 197, 197);
+}
+
+.our-location__center-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.outline-button {
+  background-color: white;
+  border: 1px solid var(--brandclr) !important;
+  border-radius: 0.13888rem;
+  width: 2.5rem;
+  height: 0.784rem;
+  font-weight: 700;
+  font-size: 0.4145rem;
+  color: var(--colorBlack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filled-button {
+  color: white;
+  border: 2px solid var(--brandclr);
+  border-radius: 0.13888rem;
+  width: 3.175rem;
+  height: 0.784rem;
+  font-weight: 700;
+  background-color: var(--brandclr);
+  margin-left: 0.3975rem;
+  font-size: 0.4145rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button img {
+  margin-right: 0.25rem;
+  width: 0.414rem;
+}
+
+@media screen and (min-width: 768px) {
+  .our-locations {
+    padding: 0rem 3.11rem;
+  }
+  .our-locations__inner {
+    flex-direction: row;
+    /* margin-top: 1.833rem; */
+  }
+
+  .our-locations__text-section {
+    flex-grow: 1;
+    align-self: stretch;
+    order: 1;
+    width: 10.85rem;
+    margin-top: initial;
+  }
+
+  .our-location__cities {
+    width: 4.60rem;
+    height: 10.867rem;
+    border-radius: 0.27rem;
+    align-self: center;
+  }
+
+  .our-location__cities-centers {
+    /* margin: auto; */
+    overflow-y: auto;
+    flex-grow: 0;
+    height: 10.858rem;
+    margin-left: 1.7358rem;
+    margin-right: 1.7358rem;
+    width: 10.26rem;
+    align-self: center;
+  }
+
+  .our-location__center {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.377rem;
+    margin-bottom: 0.377rem;
+    width: 8.49rem;
+  }
+
+  .our-location__center-name {
+    font-size: 0.3207rem;
+    color: var(--brandclr);
+  }
+
+  .our-location__center-address {
+    font-size: 0.283rem;
+    margin-top: 0.0566rem;
+    margin-bottom: 0.0943rem;
+    width: 4.264rem;
+  }
+
+  .our-locations__city-btn {
+    height: 1.358rem !important;
+    font-size: 0.3962rem;
+    font-weight: 700;
+    padding-left: 0.622641rem;
+  }
+
+  .our-locations__map {
+    width: 18.33rem;
+    height: 11.32rem;
+    margin-left: auto;
+    order: 2;
+    flex-shrink: 0;
+  }
+
+  .our-location__center-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .outline-button {
+    border-radius: 0.13888rem;
+    width: 1.671rem;
+    height: 0.5283rem;
+    font-size: 0.275rem;
+    font-weight: 700;
+    border-radius: .0943;
+  }
+  .filled-button {
+    border: 2px solid var(--brandclr);
+    border-radius: .0943;
+    width: 2.0754rem;
+    height: 0.5283rem;
+    background-color: var(--brandclr);
+    margin-left: 0.5544;
+    font-size: 0.275rem;
+  }
+
+  button img {
+    margin-right: 0.1886rem;
+    height: .269rem;
+    width: .269rem;
+  }
+  .our-location__cities-centers::-webkit-scrollbar {
+    display: initial;
+    max-width: 4px !important;
+  }
+}
+
+.our-location__cities-centers::-webkit-scrollbar {
+  display: initial;
+  max-width: .227rem;
+}
+
+/* Track */
+.our-location__cities-centers::-webkit-scrollbar-track {
+  background: rgba(128, 42, 143, 0.4);
+  border-radius: 5px;
+  margin: 0 !important;
+}
+
+/* Handle */
+.our-location__cities-centers::-webkit-scrollbar-thumb {
+  background: var(--brandclr);
+  border-radius: 5px;
+  /* height: 20px !important; */
+}
+
+/* Handle on hover */
+.our-location__cities-centers::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.our-location__cities-centers::-webkit-scrollbar-button{
+  display: none;
+}
+
+.our-locations__map iframe{
+  width: 100%;
+  height: 100% !important;
+  border-radius: initial !important;
+}
